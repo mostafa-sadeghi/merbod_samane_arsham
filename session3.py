@@ -11,15 +11,15 @@
 # print(message)
 
 
-a = int(input("enter a number: "))
-b = int(input("enter a number: "))
+# a = int(input("enter a number: "))
+# b = int(input("enter a number: "))
 
-print(a + b)
-print(a - b)
-print(a * b)
-print(a / b)
-print(a // b)
-print(a % b)
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+# print(a // b)
+# print(a % b)
 
 # TODO
 """
@@ -30,3 +30,13 @@ print(a % b)
 artin rezaei is from tehran.
 
 """
+
+name = "sara"
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+
+# برنامه ای بنویسید که کاراکترهای اسمتان را جداگانه نمایش دهد
+
+print(name[0] + name[1])
