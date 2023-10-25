@@ -37,17 +37,28 @@ D
 #     print("D")
 
 
-name = "nikan"
-print("first character", name[0])
-print("last character", name[-1])
-print("last character", name[len(name)-1])
-print("length", len(name))
+# name = "nikan"
+# print("first character", name[0])
+# print("last character", name[-1])
+# print("last character", name[len(name)-1])
+# print("length", len(name))
 
 
 """
 برنامه ای بنویسید که نام فردی را از ورودی دریافت نماید و اولین، آخرین کاراکتر
 ونیز کاراکتر یکی مانده به آخر را نیز نمایش دهد
 """
+
+name = input('enter a name: ')
+print(name[0])
+print(name[-1])
+print(name[-2])
+print(len(name))
+print(name[len(name) - 1])
+print(name[len(name) - 2])
+
+
+
 
 # TODO
 """
